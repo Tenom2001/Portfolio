@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+h1 {
+  color: black;
+  font-family: serif;
+  font-weight: 500;
+  text-align: left;
+  background-color: lightgray;
+  
+}
+h4 {
+  text-align: left;
+  color: #696969;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 20px;
+  height: 10px;
+  padding: 10px;
+  font-size: 14px;
+}
+img{
+  float: right;
+}
+/*Moves image to right side of screen so h1 can be left and seen first*/
+
+body {
+  background-color: lightgray;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+  line-height: 20px;
+  padding: 10px;
+}
+
+h2{
+  color: darkslategrey;
+  margin: 1%;
+}
+hr{
+  position: relative;
+  color: darkslategrey;
+  
+}
+/*class to make lines double spaces. Mainly use for lists*/
+.line-spacing {
+  line-height: 40px;
+}
+/*footer should be designes to be barely noticable but make it obvious its a footer.*/
+footer {
+  font-size: 7px;
+  text-align: center;
+  padding-bottom: 10%;
+}
