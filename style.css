@@ -1,3 +1,4 @@
+/*dark, simple, clean layout through portfolio. Keep minimalistic and nuetral*/
 html {
   height: 100%;
   width: 100%;
@@ -10,6 +11,7 @@ h1 {
   background-color: lightgray;
   
 }
+/*description under name. keep clean, simple, elegant,*/
 h3 {
   text-align: left;
   color: #696969;
@@ -19,10 +21,16 @@ h3 {
   padding: 10px;
   font-size: 14px;
 }
+/*Moves image to right side of screen and up so info can be left and seen first*/
 img{
   float: right;
+  object-position: top;
+  height: 100px;
+  width: 100 px;
+  object-fit: cover;
+  margin-bottom: 300px;
 }
-/*Moves image to right side of screen so h1 can be left and seen first*/
+
 
 body {
   background-color: lightgray;
@@ -32,15 +40,24 @@ p{
   line-height: 20px;
   padding: 10px;
 }
-
+/*make all the headings match*/
 h2{
   color: darkslategrey;
   margin: 1%;
 }
+/*makes the horizontal line slightly more aesthetically pleasing*/
 hr{
   position: relative;
   color: darkslategrey;
   
+}
+/*make link blue before it is visited*/
+a:link {
+  color: blue;
+}
+/*make link color purple after it is visited*/
+a:visited {
+  color:purple;
 }
 /*class to make lines double spaces. Mainly use for lists*/
 .line-spacing {
